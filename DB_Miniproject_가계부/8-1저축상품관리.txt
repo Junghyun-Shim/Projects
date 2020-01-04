@@ -1,0 +1,72 @@
+insert into account(account_id, user_id, account_type, bank, account_name) values('123-123-123456', '이동주1', '적금', '신한은행', '이동주_적금');
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-01-01', 0, 100000, '적금납부', 100000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-02-01', 0, 100000, '적금납부', 200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-03-01', 0, 100000, '적금납부', 300000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-04-01', 0, 100000, '적금납부', 400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-05-01', 0, 100000, '적금납부', 500000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-06-01', 0, 100000, '적금납부', 600000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-07-01', 0, 100000, '적금납부', 700000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-08-01', 0, 100000, '적금납부', 800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-09-01', 0, 100000, '적금납부', 900000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-10-01', 0, 100000, '적금납부', 1000000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-11-01', 0, 100000, '적금납부', 1100000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2018-12-01', 0, 100000, '적금납부', 1200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-01-01', 0, 100000, '적금납부', 1300000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-02-01', 0, 100000, '적금납부', 1400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-03-01', 0, 100000, '적금납부', 1500000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-04-01', 0, 100000, '적금납부', 1600000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-05-01', 0, 100000, '적금납부', 1700000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-06-01', 0, 100000, '적금납부', 1800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-07-01', 0, 100000, '적금납부', 1900000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-08-01', 0, 100000, '적금납부', 2000000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-09-01', 0, 100000, '적금납부', 2100000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-10-01', 0, 100000, '적금납부', 2200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-11-01', 0, 100000, '적금납부', 2300000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('123-123-123456', '이동주1', '2019-12-01', 0, 100000, '적금납부', 2400000);
+
+insert into account(account_id, user_id, account_type, bank, account_name) values('111-111-100001', 'user01', '적금', '신한은행', '형님_적금');
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-01-01', 0, 200000, '적금납부', 200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-02-01', 0, 200000, '적금납부', 400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-03-01', 0, 200000, '적금납부', 800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-04-01', 0, 200000, '적금납부', 1000000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-05-01', 0, 200000, '적금납부', 1200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-06-01', 0, 200000, '적금납부', 1400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-07-01', 0, 200000, '적금납부', 1600000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-08-01', 0, 200000, '적금납부', 1800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-09-01', 0, 200000, '적금납부', 2000000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-10-01', 0, 200000, '적금납부', 2200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-11-01', 0, 200000, '적금납부', 2400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2018-12-01', 0, 200000, '적금납부', 2600000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-01-01', 0, 200000, '적금납부', 2800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-02-01', 0, 200000, '적금납부', 3000000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-03-01', 0, 200000, '적금납부', 3200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-04-01', 0, 200000, '적금납부', 3400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-05-01', 0, 200000, '적금납부', 3600000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-06-01', 0, 200000, '적금납부', 3800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-07-01', 0, 200000, '적금납부', 4000000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-08-01', 0, 200000, '적금납부', 4200000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-09-01', 0, 200000, '적금납부', 4400000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-10-01', 0, 200000, '적금납부', 4600000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-11-01', 0, 200000, '적금납부', 4800000);
+insert into tran(account_id, user_id, t_date, withdraw, deposit, t_contents, balance) values('111-111-100001', 'user01', '2019-12-01', 0, 200000, '적금납부', 5000000);
+
+ALTER TABLE MANAGE MODIFY sm_rate NUMBER(5,3);
+ALTER TABLE MANAGE MODIFY sm_napgi NUMBER(5);
+insert into manage(account_id, user_id, sm_join, sm_nap, sm_napgi, sm_rate) values('123-123-123456', '이동주1', '2018-01-01', 100000, 36, 0.05);
+insert into manage(account_id, user_id, sm_join, sm_nap, sm_napgi, sm_rate) values('111-111-100001', 'user01', '2018-01-01', 200000, 48, 0.04);
+
+SELECT 
+	account_id,
+	user_id,
+	sm_nap*sm_napgi+(sm_nap*sm_rate*sm_napgi*(sm_napgi+1)/24) AS 만기상환금, 
+              sm_nap*(SELECT TRUNC(MONTHS_BETWEEN(SYSDATE, sm_join)+1)
+              FROM MANAGE
+	WHERE user_id LIKE '이동주1') AS 현재까지_납입원금, 
+          (sm_nap*sm_rate*(SELECT TRUNC(MONTHS_BETWEEN(SYSDATE, sm_join))
+	FROM MANAGE
+	WHERE user_id LIKE '이동주1')*((SELECT TRUNC(MONTHS_BETWEEN(SYSDATE, sm_join))
+	FROM MANAGE
+	WHERE user_id LIKE '이동주1')+1)/24) AS 현재까지_누적이자
+
+FROM MANAGE
+where user_id = '이동주1';
