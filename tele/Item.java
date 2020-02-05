@@ -104,17 +104,27 @@ public class Item
 //		
 //		System.out.println(packet.raw());
 		
-		String test ="test";
-		byte[] btest = test.getBytes(); // 배열에 이렇게 하는건 뭘까?
-		//System.out.println(btest[0].length);
-		System.out.println(test.getBytes().length);
+//		String test ="test";
+//		byte[] btest = test.getBytes(); // 배열에 이렇게 하는건 뭘까?
+//		// test라는 스트링을 바이트로 바꿔서 넣으란 의미는 아닌듯
+//		//System.out.println(btest[0].length);
+//		System.out.println(test.getBytes().length);
+//		
+//		
+//		String test2 ="test";
+//		String[] btest2 = new String[2];
+//		btest2[0] = test2;
+//		System.out.println(btest2[0].length());
+//		
+	    Packet recvPacket = new Packet();
+	    recvPacket.addItem(Item.create("생일", 8, null));
+	    recvPacket.addItem(Item.create("주소", 30, null));
+	    recvPacket.parse("19801215서울시 송파구 잠실동 123-3    ");
+
+	    System.out.println(recvPacket.getItem("주소").raw());
 		
-		
-		String test2 ="test";
-		String[] btest2 = new String[2];
-		btest2[0] = test2;
-		System.out.println(btest2[0].length());
-		
+	    
+	    
 	}
     
     
